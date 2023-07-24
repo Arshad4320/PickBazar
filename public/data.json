@@ -1,0 +1,125 @@
+[
+    {
+        "id":1,
+        "name":"Apples",
+        "price":"$1.60",
+        "img":"https://i.ibb.co/5sd910M/img1.webp"
+    },
+    {
+        "id":2,
+        "name":"Baby Spinach",
+        "price":"$0.60",
+        "img":"https://i.ibb.co/9pZC1n5/img2.webp"
+    },
+    {
+        "id":3,
+        "name":"Blueberries",
+        "price":"$3.60",
+        "img":"https://i.ibb.co/jbD6W2C/img3.webp"
+    },
+    {
+        "id":4,
+        "name":"Apples",
+        "price":"$3.30",
+        "img":"https://i.ibb.co/NTJh0tf/img4.webp "
+    },
+    {
+        "id":5,
+        "name":"Celery Stick",
+        "price":"$5.00",
+        "img":"https://i.ibb.co/NFCwVpG/img5.webp"
+    },
+    {
+        "id":6,
+        "name":"Clementines",
+        "price":"$2.60",
+        "img":"https://i.ibb.co/6WQ5sWX/img6.webp"
+    },
+    {
+        "id":7,
+        "name":"Sweet Corn",
+        "price":"$4.60",
+        "img":"https://i.ibb.co/BBGsZV3/img7.webp"
+    },
+    {
+        "id":8,
+        "name":"Cucumber",
+        "price":"$2.60",
+        "img":"https://i.ibb.co/rG9Gwb0/img8.webp"
+    },
+    {
+        "id":9,
+        "name":"Dates",
+        "price":"$8.60",
+        "img":"https://i.ibb.co/QfShzm7/img9.webp"
+    },
+    {
+        "id":10,
+        "name":"French Green Beans",
+        "price":"$1.20",
+        "img":"https://i.ibb.co/NL2GvX9/img10.webp"
+    },
+    {
+        "id":11,
+        "name":"Green Beans",
+        "price":"$4.60",
+        "img":"https://i.ibb.co/99KjR3d/img11.webp"
+    },
+    {
+        "id":12,
+        "name":"Lime",
+        "price":"$1.60",
+        "img":"https://i.ibb.co/DMNC7LB/img12.webp"
+    },
+    {
+        "id":13,
+        "name":"Mango",
+        "price":"$2.60",
+        "img":"https://i.ibb.co/TRtK5yw/img13.webp"
+    },
+    {
+        "id":14,
+        "name":"Pepper",
+        "price":"$5.60",
+        "img":"https://i.ibb.co/R7JGBm8/img14.webp"
+    },
+    {
+        "id":15,
+        "name":"Pears",
+        "price":"$3.60",
+        "img":"https://i.ibb.co/tBw4p9F/img15.webp"
+    },
+    {
+        "id":16,
+        "name":"Peeled Baby Carrot",
+        "price":"$2.20",
+        "img":"https://i.ibb.co/bHmZ3fX/img16.webp"
+    },
+    {
+        "id":17,
+        "name":"Cherry",
+        "price":"$1.80",
+        "img":"https://i.ibb.co/09xSHPX/img17.webp"
+    },
+    {
+        "id":18,
+        "name":"Strawberry",
+        "price":"$8.60",
+        "img":"https://i.ibb.co/4JkHwyP/img18.webp"
+    },
+    {
+        "id":19,
+        "name":"Mix Vegetable Platter",
+        "price":"$3.20",
+        "img":"https://i.ibb.co/K9H815F/img19.webp"
+    },
+    {
+        "id":20,
+        "name":"Lemon",
+        "price":"$1.20",
+        "img":"https://i.ibb.co/RTKLGCW/img20.webp"
+    }
+    
+    
+    
+]
