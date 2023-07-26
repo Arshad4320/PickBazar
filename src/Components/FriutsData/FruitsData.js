@@ -15,9 +15,10 @@ const FruitsData = () => {
         });
     },[])
     return (
-        <div className='flex flex-wrap'>
-            <LeftSideMenu className="w-1/4"/>
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4  bg-white gap-5 mx-5 h-96 w-3/4'>
+        <div className='lg:flex lg:justify-between'>
+            <LeftSideMenu className=" "/>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  bg-white gap-5 mx-6 h-96 xl:w-4/5 lg:w-4/5 '>
+                
                 
             {
                 item?.map((item) => <FruitData item={ item} key={item.id} />)

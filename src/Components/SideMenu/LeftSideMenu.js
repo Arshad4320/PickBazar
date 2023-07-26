@@ -1,7 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { FaSlidersH} from "react-icons/fa";
+import { HiMiniXMark} from "react-icons/hi2";
+
+
 
 const LeftSideMenu = () => {
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -14,33 +19,28 @@ const LeftSideMenu = () => {
   };
 
   return (
-    <div className="flex  ">
-      {/* Menu button */}
-      <button
-        onClick={toggleMenu}
-        className="p-4 text-gray-400 bg-white focus:outline-none md:hidden"
-      >
-        <svg
-          className="w-6 h-6"
-          fill="none"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
-
+    
+    <div className=" bg-white top-14 sticky border-top border-gray-400  p-4 xl:mb-0 lg:mb-0 mb-3 shadow-md z-10 lg:p-5 xl:p-5 ">
+      <div className='flex justify-between    '>
+         <button onClick={toggleMenu}
+        className=" text-gray-900 bg-white focus:outline-none md:block lg:hidden xl:hidden flex">
+            {isMenuOpen ? (
+           
+            <HiMiniXMark className='bg-gray-100 h-6 w-6 mt-3   p-1 rounded-full ' />
+          ) :
+           (<div className='flex justify-center items-center bg-gray-100 py-2 px-4 rounded-lg'><FaSlidersH className=' h-4 w-4 '/><span className='ml-2 text-md font-semibold'>Filter</span></div> )}
+          </button>
+        
+ <button style={{color:"#009F7F"}} className='text-lg sm:block md:block  xl:hidden border bg-white font-semibold  px-6 py-2 rounded-md ml:0 lg:hidden '>Grocery</button>
+     </div>
       {/* Menu */}
       <div
         className={`${
           isMenuOpen ? 'block' : 'hidden'
-        } md:block md:w-64 bg-white shadow-md `}
+        } lg:block xl:block  `}
       >
         {/* Menu Content */}
-        <div className="p-4">
+        <div className=" scroll-m-3 ">
 
           <ul className="space-y-2 ">
             <li className=''>
@@ -72,6 +72,33 @@ const LeftSideMenu = () => {
                 Home & Cleaning
               </Link>
             </li>
+            <li>
+               <Link to="/" className="block px-4 py-2 font-semibold text-gray-500 hover:text-teal-500 rounded">
+                Home & Cleaning
+              </Link>
+            </li>
+           
+            <li>
+               <Link to="/" className="block px-4 py-2 font-semibold text-gray-500 hover:text-teal-500 rounded">
+                Home & Cleaning
+              </Link>
+            </li>
+            <li>
+               <Link to="/" className="block px-4 py-2 font-semibold text-gray-500 hover:text-teal-500 rounded">
+                Home & Cleaning
+              </Link>
+            </li>
+            <li>
+               <Link to="/" className="block px-4 py-2 font-semibold text-gray-500 hover:text-teal-500 rounded">
+                Home & Cleaning
+              </Link>
+            </li>
+            <li>
+               <Link to="/" className="block px-4 py-2 font-semibold text-gray-500 hover:text-teal-500 rounded">
+                Home & Cleaning
+              </Link>
+            </li>
+           
 
             {/* Dropdown Menu */}
             <li>
@@ -131,7 +158,10 @@ const LeftSideMenu = () => {
         </div>
       </div>
     </div>
+ 
   );
 };
 
 export default LeftSideMenu;
+
+
